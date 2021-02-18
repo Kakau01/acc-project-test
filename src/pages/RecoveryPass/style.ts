@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 // Inicio LoginContainer
-export const LoginContainer = styled.main`
+export const PassContainer = styled.main`
 
     display: flex;
     justify-content:center;
@@ -13,17 +13,17 @@ export const LoginContainer = styled.main`
         background-color: #fff;
         display: flex;
         flex-direction: column;
-        padding: 40px;
-        border-radius: 5px 5px 0px 0px;
+        padding: 20px;
+        border-radius: 10px 0px 0px;;
         width: 25%;
         
         h1{
-            margin-bottom: 60px;
+            margin-bottom: 40px;
             text-align: center;
         }
 
         input{
-        font-size: 1.4rem;
+        font-size: 1.3rem;
         border-width: 0px 0px 1px 0px;
         padding: 8px;
         border-color: #878686;
@@ -38,7 +38,7 @@ export const LoginContainer = styled.main`
             border-radius: 35px;
             font-size: 1.5rem;
             width: 100%;
-            margin-top: 60px;
+            margin-top: 40px;
             padding: 10px 10px;
             text-align: start;
             color: #8C52E5;
@@ -68,7 +68,7 @@ export const LoginContainer = styled.main`
         justify-content:center;
         width: 25%;
         align-items:center;
-        padding: 30px;
+        padding: 10px;
         background: #D8D8D8;
         a{
             margin-bottom: 10px;
